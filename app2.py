@@ -10,7 +10,7 @@ st.set_page_config(page_title="🧠 AI Tools in Education", layout="wide")
 st.title("🎓 Dashboard: Penggunaan AI Tools oleh Mahasiswa")
 
 # Load data
-df = pd.read_csv("/mnt/data/Students.csv")
+df = pd.read_csv("Students.csv")
 df.columns = df.columns.str.strip().str.replace(" ", "_")
 
 # Overview
